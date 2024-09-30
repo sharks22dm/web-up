@@ -1,0 +1,66 @@
+body{
+    background: #2c2c2c;
+}
+
+aside{
+    float: left;
+    background: #181818;
+    width: 15%;
+    padding: 20px;
+    height: 100vh;
+    color: #fff;
+    border-right: 4px solid #4d4d4d;
+    font-family: Montserrat;
+}
+
+aside img{
+    width: 40px;
+    float: left;
+
+}
+
+aside .logo{
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: semi-bold;
+    position: relative;
+    top: 2px;
+}
+
+aside ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+aside ul li{
+    color: #ababab;
+    display: block;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+aside ul li:hover, aside ul a{
+    color: #fff;
+    text-decoration: none;
+    transform: translateX(10px);
+}
+
+main .card{
+    float: left;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    width: 85%;
+}
+
+main .card h1{font-size: 30px;}
+main .card p{max-width: 400px; margin: 20px auto}
+
+.alert-warning{
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}

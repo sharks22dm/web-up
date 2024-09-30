@@ -1,0 +1,16 @@
+{% extends "main/base.html" %}
+
+{% block title %} Перемещение товара {% endblock %}
+
+{% block content %}
+Перемещение товара
+{% for n in products %}
+<div class="card">
+    <div class="alert alert-warning">
+        <h3>{{ n.product }}</h3>
+        <p>{{ n.total }}</p>
+        <p>{{ n.status}}</p>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
